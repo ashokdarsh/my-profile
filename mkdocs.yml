@@ -46,8 +46,6 @@ markdown_extensions:
 
 extra:
   social:
-    - icon: simple/github
-      link: https://github.com/ashokdarsh  
     - icon: simple/linkedin
       link: https://linkedin.com/in/ashanaa
 
