@@ -1,0 +1,22 @@
+.classification {
+    background-color: #5b616b;
+    border-radius: 2px;
+    color: #fff;
+    margin-right: 0.25rem;
+    padding: 0.1rem 0.5rem;
+    text-transform: uppercase;
+}
+.requirement {
+    background-color: #cd2026;
+}
+.standard {
+    background-color: #f9c642; color: black;
+}
+.default {
+    background-color: #2e8540;
+}
+[data-md-color-scheme="ashok-light"] {
+    --md-primary-fg-color:        rgb(77, 159, 167);
+    --md-primary-fg-color--light: rgb(128, 187, 192);
+    --md-primary-fg-color--dark:  rgb(0, 118, 129);
+}

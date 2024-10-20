@@ -1,30 +1,66 @@
-site_name: My Docs
-site_url: https://ashokdars.github.io
+site_name: Ashok's Profile Site
+site_description: >-
+  Ashok's Work Profile website.
+site_url: https://ashokdarsh.github.io/my-profile/
+
+copyright: Copyright &copy; <script>document.write(new Date().getFullYear())</script> Ashok Palaniswamy
+
 theme:
   name: material
   icon:
     logo: fontawesome/solid/a
-  features:
-    - navigation.footer
-  palette:
-    # Dark Mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-      primary: green
-      accent: deep purple
+  language: en
 
-    # Light Mode
-    - scheme: default
+  features:
+    - content.code.annotate
+    - content.tabs.link
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.path
+    - navigation.footer
+    - navigation.indexes
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+
+  palette:
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: yellow
       toggle:
-        icon: material/weather-night
-        name: Light mode
+        icon: material/brightness-4
+        name: Switch to Light M ode
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: ashok-light
       primary: blue
       accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to Dark Mode
+
+  font: 
+    text: Open Sans
+    code: Noto Sans Mono
+
+  #favicon: icons/favicon.png
+  
+  #icon:
+  #  logo: logo    
 
 markdown_extensions:
+  - abbr
+  - admonition
   - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -41,12 +77,28 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
-  - admonition
-  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: false
+      clickable_checkbox: false
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search
 
 extra:
   social:
     - icon: simple/linkedin
       link: https://linkedin.com/in/ashanaa
 
-copyright: Copyright &copy; 2024 Ashok Palaniswamy
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+nav:
+  - Home:
+      - Overview: index.md
+      - Practices Classification: dummy.md

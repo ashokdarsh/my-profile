@@ -1,4 +1,11 @@
-# Welcome to MkDocs
+---
+title: Welcome to Ashok's Profile
+permalink: false
+hide:
+  - toc
+---
+
+# Welcome to Ashoks
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
