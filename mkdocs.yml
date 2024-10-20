@@ -20,25 +20,44 @@ theme:
     - navigation.path
     - navigation.footer
     - navigation.indexes
+    - navigation.tracking
     - search.highlight
     - search.share
     - search.suggest
     - toc.follow
 
+  #palette:
+  #  # Dark mode
+  #  - media: "(prefers-color-scheme: dark)"
+  #    scheme: slate
+  #    primary: blue grey
+  #    accent: yellow
+  #    toggle:
+  #      icon: material/brightness-4
+  #      name: Switch to Light M ode
+  #  # Light mode
+  #  - media: "(prefers-color-scheme: light)"
+  #    scheme: ashok-light
+  #    primary: blue
+  #    accent: deep orange
+  #    toggle:
+  #      icon: material/weather-night
+  #      name: Switch to Dark Mode
+
   palette:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue grey
-      accent: yellow
+      primary: custom-black
+      accent: custom-black
       toggle:
-        icon: material/brightness-4
-        name: Switch to Light M ode
+        icon: material/weather-sunny
+        name: Switch to Light Mode
     # Light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: ashok-light
-      primary: blue
-      accent: deep orange
+      scheme: default
+      primary: custom-lightblue
+      accent: custom-lightblue
       toggle:
         icon: material/weather-night
         name: Switch to Dark Mode
@@ -82,6 +101,7 @@ markdown_extensions:
       clickable_checkbox: false
   - tables
   - toc:
+      title: Table of Contents
       permalink: true
 
 plugins:
