@@ -6,12 +6,6 @@
     padding: 0.1rem 0.5rem;
     text-transform: uppercase;
 }
-.requirement {
-    background-color: #cd2026;
-}
-.standard {
-    background-color: #f9c642; color: black;
-}
 .default {
     background-color: #2e8540;
 }
@@ -23,12 +17,13 @@ a[target="_blank"] {
     background-size: 12px 12px;
     background-repeat: no-repeat;
 }
-/*
+
 .md-header__topic {
-    font-family: 'Courier New', monospace;
+    font-family:'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
     font-weight: bolder;
-    font-size: 1.5em;
+    font-size: 1.35em;
 }
+/*
 .md-header__topic::before {
   content: "<";
     margin-right: 0.10em;
@@ -38,16 +33,26 @@ a[target="_blank"] {
     margin-left: 0.10em;
 }
 */
-.md-tabs__link {
-    font-family: 'Courier New', monospace;
-    font-weight: bold;
-    font-size: .9rem;
+.md-tabs__item {
+    font-size: 1.5rem;
+    font-weight:800;
 }
-.md-tabs__link--active {
-    color: #f4e6b3;
-    font-size: 1rem;
+.md-tabs__item--active {
+    color: #efd163;
+    font-size: 1.5rem;
+    font-weight:800;
     border-bottom: 2px solid #f4e6b3;
 }
+.md-tabs__link {
+    font-family: 'Courier New', monospace;
+    font-weight:bold;
+    font-size: 1.0rem;
+}
+
+.md-top {
+    background-color: teal;
+}
+
 img.doc-logo {
     width: 6em;
     margin: 0;
@@ -96,16 +101,16 @@ div.summary-description {
 [data-md-color-accent="custom-black"] {
     --md-accent-fg-color: #cacc5b;
     --md-accent-fg-color--transparent: rgba(255, 110, 66, 0.1);
-    --md-accent-bg-color: #fff;
+    --md-accent-bg-color: #FFF;
     --md-accent-bg-color--light: hsla(0, 0%, 100%, 0.7);
 } 
 [data-md-color-primary="custom-black"] {
     --md-primary-fg-color: #000;
     --md-primary-fg-color--light: rgba(0, 0, 0, 0.54);
     --md-primary-fg-color--dark: #000;
-    --md-primary-bg-color: #fff;
+    --md-primary-bg-color: #FFF;
     --md-primary-bg-color--light: hsla(0, 0%, 100%, 0.7);
-    --md-typeset-a-color: rgb(171 173 37);
+    --md-typeset-a-color: #abad25;
 }
 @media screen and (min-width: 60em) {
     [data-md-color-primary="custom-black"] .md-search__form {

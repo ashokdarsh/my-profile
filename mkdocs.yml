@@ -9,6 +9,9 @@ theme:
   name: material
   icon:
     logo: fontawesome/solid/a
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+    top: fontawesome/solid/angle-up
   language: en
 
   features:
@@ -25,24 +28,6 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
-
-  #palette:
-  #  # Dark mode
-  #  - media: "(prefers-color-scheme: dark)"
-  #    scheme: slate
-  #    primary: blue grey
-  #    accent: yellow
-  #    toggle:
-  #      icon: material/brightness-4
-  #      name: Switch to Light M ode
-  #  # Light mode
-  #  - media: "(prefers-color-scheme: light)"
-  #    scheme: ashok-light
-  #    primary: blue
-  #    accent: deep orange
-  #    toggle:
-  #      icon: material/weather-night
-  #      name: Switch to Dark Mode
 
   palette:
     # Dark mode
@@ -65,11 +50,11 @@ theme:
   font: 
     text: Open Sans
     code: Noto Sans Mono
-
   #favicon: icons/favicon.png
-  
   #icon:
   #  logo: logo    
+
+use_directory_urls: false
 
 markdown_extensions:
   - abbr
@@ -108,6 +93,7 @@ plugins:
   - search
 
 extra:
+  generator: false
   social:
     - icon: simple/linkedin
       link: https://linkedin.com/in/ashanaa
@@ -120,5 +106,12 @@ extra_javascript:
 
 nav:
   - Home:
-      - Overview: index.md
-      - Practices Classification: dummy.md
+      -   index.md
+  - About:
+      - about/about.md
+  - Modernization:
+      - modernization/modernization.md
+  - Engineering:
+      - engineering/engineering.md
+  - Product:
+      - product/product.md

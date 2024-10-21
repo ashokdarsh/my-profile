@@ -3,6 +3,7 @@ title: Welcome to Ashok's Profile
 permalink: false
 hide:
   - toc
+  - navigation  
 ---
 
 # Welcome to Ashoks
