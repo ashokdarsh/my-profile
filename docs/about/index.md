@@ -1,5 +1,5 @@
 ---
-title: Welcome to Ashok's Profile
+title: About Me
 permalink: false
 hide:
   - navigation  
