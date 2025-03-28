@@ -1,6 +1,6 @@
-site_name: Ashok's Profile Site
+site_name: Ashok's Portfolio
 site_description: >-
-  Ashok's Work Profile website.
+  Ashok's Work Portfolio website.
 site_url: https://ashokdarsh.github.io/my-profile/
 
 copyright: Copyright &copy; <script>document.write(new Date().getFullYear())</script> Ashok Palaniswamy
@@ -95,8 +95,10 @@ plugins:
 extra:
   generator: false
   social:
-    - icon: simple/linkedin
+    - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/ashanaa
+    - icon: fontawesome/solid/envelope
+      link: mailto:ashanaa@hotmail.com
 
 extra_css:
   - stylesheets/extra.css
