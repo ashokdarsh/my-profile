@@ -8,13 +8,13 @@ hide:
 
 ## My Role
 
-As part of my work to uplift engineering maturity across product teams, I created and rolled out a comprehensive set of **Modern Engineering Practices** — a blueprint for building scalable, secure, and high-quality digital products on the Cargill Cloud Platform.
+As part of my work to uplift engineering maturity across product teams, I created and rolled out a comprehensive set of **Modern Engineering Practices** — a blueprint for building scalable, secure, and high-quality digital products on the Cloud Platform.
 
 These practices bring together cloud-native architecture, automation, Agile + DevOps culture, and a fully integrated toolchain. The goal was to provide teams — whether modernizing legacy applications or building greenfield solutions — with a clear, opinionated path to engineering excellence.
 
 The following visual summarizes the key capabilities and practices, layered across planning, build, test, release, deploy, and monitor stages.
 
-![Modern Application Engineering Infographic](../assets/images/App-Engineering-Infographic_v2.png)
+![Modern Application Engineering Infographic](../assets/images/engineering-infographic.png)
 
 ---
 
@@ -23,7 +23,7 @@ The following visual summarizes the key capabilities and practices, layered acro
 - **Agile + DevOps Culture**: A mindset that embraces iteration, rapid feedback, automation, and collaboration  
 - **Cloud-Native Development**: Containerized apps, microservices, and scalable API-first architectures  
 - **Integrated Engineering Toolchain**: From Jira to GitHub to CI/CD to monitoring, enabling end-to-end traceability  
-- **Infrastructure as Code (IaC)**: Fully automated infrastructure provisioning using Captain, Terraform, and Cargill Cloud Platform  
+- **Infrastructure as Code (IaC)**: Fully automated infrastructure provisioning using Terraform, and Cloud Platform  
 - **Source Control & Branching Strategy**: GitHub Enterprise with GitFlow/GitHubFlow, tagging, and hotfix support  
 - **Continuous Integration & Delivery**: Pipelines with built-in gates for quality, coverage, security, and observability  
 - **Shift-Left Testing**: Early, automated testing — unit, functional, regression, and security — integrated into the CI/CD lifecycle  

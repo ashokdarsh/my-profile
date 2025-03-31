@@ -25,7 +25,7 @@ These engineering practices provides guidelines and coding standards for any tea
 ### **WHEN** _should these be followed?_
 
 - A new product development is started, the engineering team should reference these practices so the team is on the same understanding.
-- A new engineer is onboarding to Cargill or to an Engineering team
+- A new engineer is onboarding to an Engineering team
 - Any modernization effort which involves re-engineering / refactoring code to a different language
 
 ### **WHERE** _can these be applied?_

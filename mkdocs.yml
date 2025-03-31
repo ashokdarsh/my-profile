@@ -24,7 +24,7 @@ theme:
     - navigation.footer
     - navigation.indexes
     - navigation.tracking
-    - navigation.expand
+#    - navigation.expand
     - search.highlight
     - search.share
     - search.suggest
@@ -117,7 +117,10 @@ nav:
       - Modern Engineering:
           - Engineering Foundations: engineering/foundations.md
           - Engineering Practices: engineering/practices.md
-      - DevOps toolchain: engineering/toolchain.md
+      - Toolchain & CI/CD: 
+          - Toolchain: engineering/toolchain-cicd.md
+          - Capabilities: engineering/toolchain-capabilities.md
+          - Strategies: engineering/toolchain-strategies.md
       - Code Branching Strategy: engineering/branching.md
       - Code Review: engineering/codereview.md
   - Modernization:

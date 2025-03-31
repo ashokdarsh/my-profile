@@ -19,9 +19,9 @@ I championed this initiative to bridge modern engineering principles with practi
 ### Architecture-First Principles  
 I standardized a **cloud-first, API-first** model for application design, ensuring that:
 
-- All greenfield apps are deployed on the Cargill Cloud Platform via *Captain* pipelines  
+- All greenfield apps are deployed on the Cloud Platform via CI/CD pipelines  
 - APIs are designed as first-class citizens, abstracting backend complexity and supporting multi-channel consumption  
-- All APIs are secured and exposed via Cargill’s API Gateway or Middleware Gateway (on-prem)
+- All APIs are secured and exposed via API Gateway or Middleware Gateway (on-prem)
 - Architecture reviews happen in phases and are tracked through TGRC and ARM governance
 
 **_Additional Enhancements:_**
@@ -101,7 +101,7 @@ Documentation isn’t just a checkbox — it’s built into the workflow:
 
 ## Impact to community
 
-These foundations are now core to how engineering is practiced at Cargill. They've helped:
+These foundations are now core to how engineering is practiced by my teams. They've helped:
 
 - Streamline onboarding for new engineers and vendors  
 - Improve the reliability and security of applications across business units  
