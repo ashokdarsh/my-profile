@@ -6,13 +6,15 @@ hide:
   - navigation  
 ---
 
-# **Welcome to Ashok's Online Portfolio**
+# **Welcome to Ashok's Portfolio**
 
-Welcome to Ashok's professional portfolio, showcasing a carefully curated selection of his most impactful work. Explore high-profile projects, thought leadership contributions, knowledge-sharing initiatives, and public speaking engagements that underline his expertise and achievements. 
+Welcome to Ashok's professional portfolio, showcasing a carefully curated selection of his most impactful work. 
+
+Explore high-profile projects, thought leadership contributions, knowledge-sharing initiatives, and public speaking engagements that underline his expertise and achievements. 
 
 Each section reflects Ashok’s commitment to delivering innovative solutions, fostering successful collaborations, and driving tangible results in the digital space. This portfolio offers a glimpse into his journey of building modern, scalable, and transformative applications
 
-## What's new? 
+## **What's new?** 
 
 I try my best to keep the content updated. Visit often to check out what has been newly added to this portal.
 

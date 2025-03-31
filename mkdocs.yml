@@ -24,6 +24,7 @@ theme:
     - navigation.footer
     - navigation.indexes
     - navigation.tracking
+    - navigation.expand
     - search.highlight
     - search.share
     - search.suggest
@@ -111,16 +112,16 @@ nav:
     -   index.md
   - About:
     - about/index.md
-  - Modernization:
-    - modernization/index.md
-  - Software Engineering: 
-      - Overview: engineering/index.md
+  - Engineering: 
+      - engineering/index.md
       - Modern Engineering:
           - Engineering Foundations: engineering/foundations.md
           - Engineering Practices: engineering/practices.md
       - DevOps toolchain: engineering/toolchain.md
       - Code Branching Strategy: engineering/branching.md
       - Code Review: engineering/codereview.md
+  - Modernization:
+    - modernization/index.md
   - Product:
       - product/index.md
   - Presentations:

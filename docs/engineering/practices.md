@@ -2,12 +2,11 @@
 title: Ashok's Profile - Software Engineering Practices
 permalink: false
 hide:
- - toc
 ---
 
-# 🛠️ Software Engineering Practices _(for digital solutions)_
+# Software Engineering Practices
 
-## My Role in Defining Engineering Practices at Cargill
+## My Role
 
 As part of my work to uplift engineering maturity across product teams, I created and rolled out a comprehensive set of **Modern Engineering Practices** — a blueprint for building scalable, secure, and high-quality digital products on the Cargill Cloud Platform.
 
@@ -19,7 +18,7 @@ The following visual summarizes the key capabilities and practices, layered acro
 
 ---
 
-## 🔧 Key Engineering Practice Areas
+## Key Engineering Practice Areas
 
 - **Agile + DevOps Culture**: A mindset that embraces iteration, rapid feedback, automation, and collaboration  
 - **Cloud-Native Development**: Containerized apps, microservices, and scalable API-first architectures  
@@ -36,7 +35,7 @@ The following visual summarizes the key capabilities and practices, layered acro
 
 ---
 
-## 🧬 How It's Used
+## How It's Used
 
 This blueprint now serves as the **engineering foundation for all new product teams** — whether they’re:
 - Starting with greenfield development  
@@ -47,7 +46,7 @@ It gives them a clear path to build quality in from day one, standardize deliver
 
 ---
 
-## 💡 Impact
+## Impact to community
 
 By operationalizing these practices across engineering pods, we’ve:
 - Accelerated delivery speed and reduced defects  

@@ -1,11 +1,11 @@
 ---
-title: Ashok's Profile - Engineering Overview
+title: Engineering Overview
 permalink: false
 hide:
   - toc
 ---
 
-# Software Engineering Standards & Practices Overview
+# Software Engineering Standards & Practices
 
 At the core of my engineering philosophy is engineering excellence at scale — driven by automation, security, DevOps culture, cloud-native architecture, and a strong product mindset. I’ve led the modernization of platforms and practices across global teams by embedding best-in-class software engineering principles throughout the SDLC.
 

@@ -2,12 +2,11 @@
 title: Ashok's Profile - Software Engineering Foundations
 permalink: false
 hide:
- - toc
 ---
 
-# 🛠️ Software Engineering Foundations
+# Software Engineering Foundations
 
-## My Role in Building Engineering Foundations at Cargill
+## My Role
 
 As part of Cargill’s broader digital transformation, I spearheaded the creation and rollout of the **Software Engineering Foundations** — a strategic, forward-looking framework that enables engineering teams to deliver secure, scalable, and high-quality software at speed.
 
@@ -15,9 +14,9 @@ I championed this initiative to bridge modern engineering principles with practi
 
 ---
 
-## 🔧 What I Delivered
+## **What I Delivered**
 
-### ✅ Architecture-First Principles  
+### Architecture-First Principles  
 I standardized a **cloud-first, API-first** model for application design, ensuring that:
 
 - All greenfield apps are deployed on the Cargill Cloud Platform via *Captain* pipelines  
@@ -32,7 +31,7 @@ I standardized a **cloud-first, API-first** model for application design, ensuri
 
 ---
 
-### ⚙️ Scalable Engineering Tooling  
+### Scalable Engineering Tooling  
 I helped teams implement and standardize:
 
 - GitHub Enterprise with branching strategies like GitFlow and GitHubFlow  
@@ -48,7 +47,7 @@ I helped teams implement and standardize:
 
 ---
 
-### 🔐 Secure by Design  
+### Secure by Design  
 Security is embedded from day one:
 
 - Federated authentication using Azure AD (internal) and Okta (external)  
@@ -62,7 +61,7 @@ Security is embedded from day one:
 
 ---
 
-### 🧪 Shift-Left Quality Practices  
+### Shift-Left Quality Practices  
 To ensure we catch issues early and often:
 
 - CI pipelines enforce code coverage, static analysis, and linting  
@@ -76,7 +75,7 @@ To ensure we catch issues early and often:
 
 ---
 
-### 🧬 Aligned Tech Stack Governance  
+### Aligned Tech Stack Governance  
 
 Each application’s tech stack must align with the portfolio’s approved stack. Deviations are allowed only with a valid business justification — documented in GitHub and reviewed during architecture intake.
 
@@ -86,7 +85,7 @@ Each application’s tech stack must align with the portfolio’s approved stack
 
 ---
 
-### 📚 End-to-End Documentation & Traceability  
+### End-to-End Documentation & Traceability  
 Documentation isn’t just a checkbox — it’s built into the workflow:
 
 - All codebases include `README.md`, architecture overviews, and deployment instructions  
@@ -100,7 +99,7 @@ Documentation isn’t just a checkbox — it’s built into the workflow:
 
 ---
 
-## 🌍 Impact
+## Impact to community
 
 These foundations are now core to how engineering is practiced at Cargill. They've helped:
 
